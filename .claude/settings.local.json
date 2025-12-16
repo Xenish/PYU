@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pytest --collect-only:*)",
+      "Bash(pytest:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(alembic revision:*)",
+      "Bash(python init_db.py:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python3:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(grep:*)",
+      "Bash(npm run lint:*)",
+      "Bash(.venv/bin/alembic upgrade:*)",
+      "Bash(alembic upgrade:*)",
+      "Bash(xargs:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}
